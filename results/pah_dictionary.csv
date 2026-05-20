@@ -1,0 +1,7 @@
+var,lod_var,abbrev,parent_pah,ring_count,role
+URXP01,URDP01LC,1-OHNa,Naphthalene,2,context
+URXP03,URDP03LC,3-OHFlu,Fluorene,3,context
+URXP04,URDP04LC,2-OHFlu,Fluorene,3,context
+URXP06,URDP06LC,1-OHPhe,Phenanthrene,3,core
+URXP10,URDP10LC,1-OHPyr,Pyrene,4,core
+URXP25,URDP25LC,2/3-OHPhe,Phenanthrene,3,core

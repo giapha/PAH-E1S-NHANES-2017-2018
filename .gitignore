@@ -1,0 +1,14 @@
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+data/raw/*
+data/processed/*
+!data/raw/README.md
+!data/processed/README.md
+*.rds
+*.RData
+*.xpt
+*.XPT
+*.zip
+*.tar.gz

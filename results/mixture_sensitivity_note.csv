@@ -1,0 +1,3 @@
+item,value
+mixture_scope,The repository provides exposure-correlation and single-component reproducibility code. Full BKMR/WQS/qgcomp objects can be regenerated from the documented source files and analysis definitions.
+interpretation,"Mixture diagnostics are interpreted as exposure-structure support, not as causal source apportionment."

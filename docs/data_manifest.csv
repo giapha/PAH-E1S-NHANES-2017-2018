@@ -1,0 +1,14 @@
+file_code,file_name,role,source_url
+DEMO_J,DEMO_J.XPT,Demographics and survey design,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.XPT
+PAH_J,PAH_J.XPT,Urinary monohydroxylated PAH biomarkers,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PAH_J.XPT
+SSTST_J,SSTST_J.XPT,Serum steroid hormones and steroid sulfates,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SSTST_J.XPT
+BMX_J,BMX_J.XPT,Body measures,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.XPT
+ALB_CR_J,ALB_CR_J.XPT,Urinary creatinine,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ALB_CR_J.XPT
+COT_J,COT_J.XPT,Serum cotinine,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/COT_J.XPT
+TCHOL_J,TCHOL_J.XPT,Total cholesterol,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/TCHOL_J.XPT
+HDL_J,HDL_J.XPT,HDL cholesterol,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HDL_J.XPT
+TRIGLY_J,TRIGLY_J.XPT,Fasting triglycerides and LDL cholesterol sensitivity variables,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/TRIGLY_J.XPT
+BIOPRO_J,BIOPRO_J.XPT,Biochemistry sensitivity variables,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.XPT
+BPXO_J,BPXO_J.XPT,Blood pressure extension variables,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPXO_J.XPT
+BPQ_J,BPQ_J.XPT,Medication and blood-pressure questionnaire variables,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPQ_J.XPT
+

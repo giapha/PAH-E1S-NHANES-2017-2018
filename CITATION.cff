@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "PAH-E1S NHANES 2017-2018 Analysis Code"
+message: "If you use this code, please cite the associated manuscript."
+type: software
+authors:
+  - family-names: Ha
+    given-names: Giap Duc
+year: 2026
+license: MIT
+

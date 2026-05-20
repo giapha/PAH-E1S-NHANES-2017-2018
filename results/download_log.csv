@@ -1,0 +1,13 @@
+file_name,status,path
+DEMO_J.XPT,already_present,data/raw/DEMO_J.XPT
+PAH_J.XPT,already_present,data/raw/PAH_J.XPT
+SSTST_J.XPT,already_present,data/raw/SSTST_J.XPT
+BMX_J.XPT,already_present,data/raw/BMX_J.XPT
+ALB_CR_J.XPT,already_present,data/raw/ALB_CR_J.XPT
+COT_J.XPT,already_present,data/raw/COT_J.XPT
+TCHOL_J.XPT,already_present,data/raw/TCHOL_J.XPT
+HDL_J.XPT,already_present,data/raw/HDL_J.XPT
+TRIGLY_J.XPT,already_present,data/raw/TRIGLY_J.XPT
+BIOPRO_J.XPT,already_present,data/raw/BIOPRO_J.XPT
+BPXO_J.XPT,already_present,data/raw/BPXO_J.XPT
+BPQ_J.XPT,already_present,data/raw/BPQ_J.XPT

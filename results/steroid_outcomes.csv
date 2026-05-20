@@ -1,0 +1,4 @@
+outcome,label,role
+ln_SSTES1,Estrone sulfate,primary
+ln_SSTESO,Estrone,active_estrogen_comparator
+ln_SSTEST,Estradiol,active_estrogen_comparator
