@@ -4,6 +4,8 @@ This repository contains reproducibility code for the manuscript:
 
 `Urinary phenanthrene/pyrene PAH biomarkers are associated with an estrone sulfate-centered steroid-reservoir phenotype in U.S. adult men`
 
+Repository URL: <https://github.com/giapha/PAH-E1S-NHANES-2017-2018>
+
 The analysis uses public NHANES 2017-2018 files to evaluate urinary monohydroxylated polycyclic aromatic hydrocarbon biomarkers, serum estrone sulfate, active estrogen comparators, lipid context, and survey design variables in adult men.
 
 ## Data
