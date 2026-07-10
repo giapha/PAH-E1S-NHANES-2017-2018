@@ -2,7 +2,7 @@
 
 This repository contains reproducibility code for the manuscript:
 
-`Urinary phenanthrene/pyrene PAH biomarkers are associated with an estrone sulfate-centered steroid-reservoir phenotype in U.S. adult men`
+`Urinary phenanthrene and pyrene biomarkers are associated with selective serum estrone sulfate accumulation in adult men`
 
 Repository URL: <https://github.com/giapha/PAH-E1S-NHANES-2017-2018>
 
