@@ -4,7 +4,7 @@ options(na.action = "na.omit")
 
 required_packages <- c(
   "haven", "survey", "dplyr", "tidyr", "purrr", "readr", "stringr",
-  "tibble", "broom"
+  "tibble", "broom", "data.table", "splines"
 )
 
 missing_packages <- required_packages[!vapply(required_packages, requireNamespace, logical(1), quietly = TRUE)]

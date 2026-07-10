@@ -6,7 +6,7 @@ This repository contains reproducibility code for the manuscript:
 
 Repository URL: <https://github.com/giapha/PAH-E1S-NHANES-2017-2018>
 
-The analysis uses public NHANES 2017-2018 files to evaluate urinary monohydroxylated polycyclic aromatic hydrocarbon biomarkers, serum estrone sulfate, active estrogen comparators, lipid context, and survey design variables in adult men.
+The analysis uses public NHANES 2017-2018 files to evaluate urinary monohydroxylated polycyclic aromatic hydrocarbon biomarkers, serum estrone sulfate, active estrogen comparators, lipid context, and survey design variables in adult men. Public NHANES 2013-2016 files are used only for the independent active-hormone comparison because estrone sulfate was unavailable in those cycles.
 
 ## Data
 
@@ -35,10 +35,15 @@ The scripts write generated aggregate outputs to `results/` and intermediate RDS
 | `R/00_setup.R` | Shared package loading, file paths, variables, and helper functions. |
 | `R/01_download_nhanes_files.R` | Download public NHANES 2017-2018 source files. |
 | `R/02_build_analysis_dataset.R` | Merge source files and derive analysis variables. |
-| `R/03_primary_steroid_models.R` | PAH-steroid screen, retained PAH-E1S models, and reservoir-ratio analyses. |
-| `R/04_lipid_context_models.R` | E1S-lipid and same-sample adjacent association checks. |
-| `R/05_mixture_sensitivity.R` | Optional mixture and robustness sensitivity summaries. |
+| `R/03_journal_facing_models.R` | Design-based discovery, endocrine-selectivity, lipid, hepatic-comparator, sensitivity, replication, and spline analyses used in the manuscript. |
+| `R/04_verify_manuscript_values.R` | Fail-fast checks for the submitted headline values and survey design degrees of freedom. |
 | `R/06_session_info.R` | Save R session information. |
+
+## Inference Policy
+
+All journal-facing models use Taylor-linearized NHANES survey designs with the component-specific examination weight. Analytic domains are defined within all positive-weight records. Confidence intervals and two-sided P values use the survey design degrees of freedom (represented primary sampling units minus strata), and Benjamini-Hochberg correction is applied within the prespecified outcome families documented in the script. Dose-response shape is assessed with three-knot natural splines and a design-based F test of the nonlinear component.
+
+Unweighted BKMR, WQS, and qgcomp analyses are not part of the submitted manuscript or the reproducibility route.
 
 ## Interpretation Boundary
 

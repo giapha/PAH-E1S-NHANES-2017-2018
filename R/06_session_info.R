@@ -1,7 +1,7 @@
 source("R/00_setup.R")
 
-capture.output(
-  sessionInfo(),
-  file = file.path(results_dir, "sessionInfo.txt")
+session_lines <- capture.output(sessionInfo())
+writeLines(
+  sub("[[:space:]]+$", "", session_lines),
+  file.path(results_dir, "sessionInfo.txt")
 )
-

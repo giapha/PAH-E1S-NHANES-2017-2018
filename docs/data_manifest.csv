@@ -11,4 +11,15 @@ TRIGLY_J,TRIGLY_J.XPT,Fasting triglycerides and LDL cholesterol sensitivity vari
 BIOPRO_J,BIOPRO_J.XPT,Biochemistry sensitivity variables,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.XPT
 BPXO_J,BPXO_J.XPT,Blood pressure extension variables,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPXO_J.XPT
 BPQ_J,BPQ_J.XPT,Medication and blood-pressure questionnaire variables,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPQ_J.XPT
-
+DEMO_H,replication_2013_2016/DEMO_H.XPT,2013-2014 demographics and survey design,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.XPT
+PAH_H,replication_2013_2016/PAH_H.XPT,2013-2014 urinary PAH biomarkers,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PAH_H.XPT
+TST_H,replication_2013_2016/TST_H.XPT,2013-2014 active sex hormones,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/TST_H.XPT
+ALB_CR_H,replication_2013_2016/ALB_CR_H.XPT,2013-2014 urinary creatinine,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ALB_CR_H.XPT
+BMX_H,replication_2013_2016/BMX_H.XPT,2013-2014 body measures,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.XPT
+COT_H,replication_2013_2016/COT_H.XPT,2013-2014 serum cotinine,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/COT_H.XPT
+DEMO_I,replication_2013_2016/DEMO_I.XPT,2015-2016 demographics and survey design,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.XPT
+PAH_I,replication_2013_2016/PAH_I.XPT,2015-2016 urinary PAH biomarkers,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PAH_I.XPT
+TST_I,replication_2013_2016/TST_I.XPT,2015-2016 active sex hormones,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/TST_I.XPT
+ALB_CR_I,replication_2013_2016/ALB_CR_I.XPT,2015-2016 urinary creatinine,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ALB_CR_I.XPT
+BMX_I,replication_2013_2016/BMX_I.XPT,2015-2016 body measures,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BMX_I.XPT
+COT_I,replication_2013_2016/COT_I.XPT,2015-2016 serum cotinine,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/COT_I.XPT

@@ -5,6 +5,7 @@ manifest <- readr::read_csv(file.path(docs_dir, "data_manifest.csv"), show_col_t
 download_one <- function(file_name, source_url) {
   destination <- file.path(raw_dir, file_name)
   relative_destination <- file.path("data", "raw", file_name)
+  dir_create(dirname(destination))
   if (file.exists(destination)) {
     return(tibble(file_name = file_name, status = "already_present", path = relative_destination))
   }

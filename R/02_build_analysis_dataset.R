@@ -78,6 +78,13 @@ dat <- pah %>%
     ln_SSTES1 = safe_log(SSTES1),
     ln_SSTESO = safe_log(SSTESO),
     ln_SSTEST = safe_log(SSTEST),
+    ln_SSTAND = safe_log(SSTAND),
+    ln_SST17H = safe_log(SST17H),
+    ln_SSTPG4 = safe_log(SSTPG4),
+    ln_SSTSHBG = safe_log(SSTSHBG),
+    ln_SSTFSH = safe_log(SSTFSH),
+    ln_SSTLUH = safe_log(SSTLUH),
+    ln_SSTAMH = safe_log(SSTAMH),
     ln_E1S_E1 = safe_log(SSTES1SI / SSTESOSI),
     ln_E1S_E2 = safe_log(SSTES1SI / SSTESTSI),
     ln_E1S_active_pool = safe_log(SSTES1SI / (SSTESOSI + SSTESTSI)),
@@ -94,23 +101,31 @@ for (exposure in pah_dictionary$var) {
 dat <- dat %>%
   filter(adult_male, WTSA2YR > 0)
 
+cohort_variables <- c(
+  paste0("ln_", pah_dictionary$var), "ln_SSTEST", primary_covariates,
+  "SDMVPSU", "SDMVSTRA", "WTSSTS2Y"
+)
+primary_cohort <- dat %>%
+  filter(if_all(all_of(cohort_variables), ~ !is.na(.x))) %>%
+  filter(WTSSTS2Y > 0)
+
 analysis_flow <- tibble(
   step = c(
     "PAH_J x SSTST_J",
     "PAH_J x SSTST_J x DEMO_J",
     "Adult male with positive WTSA2YR",
-    "Primary PAH-E1S complete case"
+    "Prespecified six-biomarker cohort with active-estrogen comparator"
   ),
   n = c(
     nrow(pah %>% inner_join(sstst, by = "SEQN")),
     nrow(pah %>% inner_join(sstst, by = "SEQN") %>% inner_join(demo, by = "SEQN")),
     nrow(dat),
-    sum(stats::complete.cases(dat[, c("ln_SSTES1", paste0("ln_", pah_dictionary$var), primary_covariates)]))
+    nrow(primary_cohort)
   )
 )
 
 readr::write_csv(analysis_flow, file.path(results_dir, "analysis_flow.csv"))
-saveRDS(dat, file.path(processed_dir, "analysis_dataset.rds"))
+saveRDS(dat, file.path(processed_dir, "analysis_dataset_full_adult_males.rds"))
+saveRDS(primary_cohort, file.path(processed_dir, "analysis_dataset.rds"))
 readr::write_csv(pah_dictionary, file.path(results_dir, "pah_dictionary.csv"))
 readr::write_csv(steroid_outcomes, file.path(results_dir, "steroid_outcomes.csv"))
-
