@@ -45,6 +45,14 @@ All journal-facing models use Taylor-linearized NHANES survey designs with the c
 
 Unweighted BKMR, WQS, and qgcomp analyses are not part of the submitted manuscript or the reproducibility route.
 
+## Locked Headline Check
+
+The July 2026 clean run reproduces the manuscript estimates:
+
+- 1-hydroxypyrene: +28.3% E1S per IQR (95% CI 12.3 to 46.6; FDR = 0.0072)
+- 2/3-hydroxyphenanthrene: +22.8% E1S per IQR (95% CI 7.8 to 39.8; FDR = 0.0128)
+- pyrene-associated estrone: +5.3%, nominal only (endocrine-family FDR = 0.055)
+
 ## Interpretation Boundary
 
 This code estimates cross-sectional associations. It does not establish temporal sequence, causal mediation, tissue-level mechanism, receptor activation, enzyme flux, or disease causality.
